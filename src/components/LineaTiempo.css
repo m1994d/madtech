@@ -1,0 +1,84 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Orbitron', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.linea-tiempo-section {
+  background-color: #0a0a0a;
+  color: #fff;
+  padding: 5rem 2rem;
+  position: relative;
+}
+
+.titulo-seccion {
+  text-align: center;
+  font-size: 2.5rem;
+  color:  #80deea;
+  margin-bottom: 4rem;
+}
+
+.linea-tiempo {
+  position: relative;
+  max-width: 800px;
+  margin: 0 auto;
+  padding-left: 20px;
+  border-left: 2px solid  #80deea;
+}
+
+.evento {
+  position: relative;
+  margin-bottom: 3rem;
+  animation: slideUp 0.8s ease forwards;
+  opacity: 0;
+}
+
+.evento:nth-child(even) .contenido {
+  margin-left: 30px;
+}
+
+.evento .punto {
+  position: absolute;
+  left: -10px;
+  top: 0;
+  width: 16px;
+  height: 16px;
+  background-color:  #80deea;
+  border-radius: 50%;
+}
+
+.evento .contenido {
+  padding: 0.5rem 1rem;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.2);
+}
+
+.evento h3 {
+  margin: 0;
+  color: #47a385;
+  font-size: 1.2rem;
+}
+
+.evento h4 {
+  margin: 0.3rem 0;
+  font-size: 1.5rem;
+  color:  #80deea;
+}
+
+.evento p {
+  margin: 0.5rem 0 0;
+  color: #ccc;
+  font-size: 1rem;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

@@ -1,0 +1,33 @@
+.parallax-banner {
+  background-image: url('https://images.unsplash.com/photo-1528460033278-a6ba57020470?auto=format&fit=crop&w=1400&q=80');
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  padding: 2rem;
+  position: relative;
+  z-index: 1;
+}
+
+.banner-content {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem 3rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,255,255,0.3);
+}
+
+.banner-content h2 {
+  font-size: 2.5rem;
+  color:  #80deea;
+}
+
+.banner-content p {
+  font-size: 1.2rem;
+  color: #ddd;
+  margin-top: 1rem;
+}

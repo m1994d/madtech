@@ -1,0 +1,40 @@
+.servicios {
+  padding: 4rem 2rem;
+  background-color: #181818;
+  text-align: center;
+}
+
+.servicios h2 {
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+  color:  #80deea;
+}
+
+.servicios-grid {
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.servicio {
+  background-color: #242424;
+  padding: 2rem;
+  border-radius: 1rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border: 1px solid #2e2e2e;
+}
+
+.servicio:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 255, 255, 0.2);
+}
+
+.servicio h3 {
+  color: #ffffff;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+}
+
+.servicio p {
+  color: #cccccc;
+}
