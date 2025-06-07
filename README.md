@@ -1,6 +1,6 @@
-# 🌐 MadTech – Diseño Gráfico y Desarrollo Web
+# 🌐 MadTech – Diseño y Desarrollo Web
 
-Bienvenido al repositorio oficial de **MadTech**, una página web profesional y responsiva que representa nuestros servicios de diseño gráfico, desarrollo web, branding y soluciones digitales.
+Bienvenido al repositorio oficial de **MadTech**, una página web profesional y responsiva que representa nuestros servicios de diseño, desarrollo web, branding y soluciones digitales.
 
 ---
 
